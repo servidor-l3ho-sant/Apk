@@ -1,5 +1,5 @@
 .class public Lcom/app/thestream/activities/MainActivity;
-.super Landroidx/appcompat/app/AppCompatActivity;
+.super Landroid/app/Activity;
 .source "MainActivity.java"
 
 # instance fields
@@ -11,7 +11,7 @@
     .locals 0
 
     .line 15
-    invoke-direct {p0}, Landroidx/appcompat/app/AppCompatActivity;-><init>()V
+    invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
     return-void
 .end method
@@ -50,7 +50,7 @@
     .end annotation
 
     .line 20
-    invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
     .line 22
     const v0, 0x7f0c001e
