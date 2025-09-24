@@ -1,0 +1,19 @@
+{
+  "apkFileName": "mexicotv_nueva.apk",
+  "VersionInfo": {
+    "versionName": "1.0",
+    "versionCode": "1"
+  },
+  "UsesFramework": {"ids": [1]},
+  "PackageInfo": {"forcedPackageId": "127"},
+  "doNotCompress": ["arsc"],
+  "compressionType": false,
+  "isFrameworkApk": false,
+  "sparseResources": false,
+  "version": "2.9.3",
+  "sdkInfo": {
+    "minSdkVersion": "21",
+    "targetSdkVersion": "34"
+  },
+  "sharedLibrary": false
+}

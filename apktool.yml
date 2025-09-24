@@ -1,0 +1,20 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: mexicotv_nueva.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '34'
+sharedLibrary: false
+sparseResources: false
+usesFramework:
+  ids:
+  - 1
+version: 2.9.3
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

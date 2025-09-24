@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Liga MX TV</string>
+    <string name="google_storage_bucket">ligamx-daf3d.firebasestorage.app</string>
+    <string name="google_api_key">AIzaSyC-example-key-for-ligamx-project</string>
+    <string name="google_app_id">1:123456789:android:abcd1234efgh5678</string>
+    <string name="action_settings">Configuración</string>
+    <string name="streaming_error">Error al cargar stream</string>
+    <string name="loading">Cargando...</string>
+</resources>
