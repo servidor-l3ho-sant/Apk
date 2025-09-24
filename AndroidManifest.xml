@@ -13,56 +13,25 @@
     
     <application 
         android:allowBackup="true"
-        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:name="com.app.thestream.activities.MyApplication"
         android:requestLegacyExternalStorage="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         
+        <!-- ULTRAGOL Main Activity as Launch Activity -->
         <activity 
-            android:name="com.app.thestream.activities.ActivitySplash"
+            android:name="com.app.thestream.activities.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.FullScreen">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        
-        <activity 
-            android:name="com.app.thestream.activities.MainActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-            
-        <activity 
-            android:name="com.app.thestream.activities.ActivityChannelDetailOffline"
-            android:exported="false"/>
-            
-        <activity 
-            android:name="com.app.thestream.activities.ActivityChannelDetail"
-            android:exported="false"/>
-            
-        <activity 
-            android:name="com.app.thestream.activities.ActivityStreamPlayer"
-            android:exported="false"/>
-            
-        <activity 
-            android:name="com.app.thestream.activities.ActivityCalendarLigaMX"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        
-        <service 
-            android:name="com.app.thestream.notification.MyFirebaseMessageService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
-            </intent-filter>
-        </service>
         
     </application>
 </manifest>
