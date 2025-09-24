@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background Circle -->
+    <group android:scaleX="0.9"
+           android:scaleY="0.9"
+           android:pivotX="54"
+           android:pivotY="54">
+        <path android:fillColor="#FF6B35"
+              android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"/>
+    </group>
+    
+    <!-- Soccer Ball -->
+    <group android:scaleX="0.6"
+           android:scaleY="0.6"
+           android:pivotX="54"
+           android:pivotY="54">
+        <path android:fillColor="#FFFFFF"
+              android:pathData="M54,25C38.5,25 26,37.5 26,53s12.5,28 28,28s28-12.5 28-28S69.5,25 54,25z"/>
+        <path android:fillColor="#000000"
+              android:pathData="M54,30C41.3,30 31,40.3 31,53s10.3,23 23,23s23-10.3 23-23S66.7,30 54,30z M54,72C42.4,72 33,62.6 33,51s9.4-21 21-21s21,9.4 21,21S65.6,72 54,72z"/>
+        <!-- Pentagon pattern -->
+        <path android:fillColor="#000000"
+              android:pathData="M54,40L60,45L58,52L50,52L48,45Z"/>
+        <path android:fillColor="#000000"
+              android:pathData="M48,45L42,50L40,57L46,60L52,55Z"/>
+        <path android:fillColor="#000000"
+              android:pathData="M60,45L66,50L68,57L62,60L56,55Z"/>
+    </group>
+    
+    <!-- "ULTRA" text -->
+    <group android:scaleX="0.35"
+           android:scaleY="0.35"
+           android:pivotX="54"
+           android:pivotY="85">
+        <path android:fillColor="#FFFFFF"
+              android:pathData="M30,80L30,90L34,90L34,85L38,90L42,90L42,80L38,80L38,85L34,80L30,80Z M45,80L45,90L55,90L55,86L49,86L49,80L45,80Z M58,80L58,90L68,90L68,86L62,86L62,84L66,84L66,82L62,82L62,80L58,80Z M71,80L71,90L81,90L81,86L75,86L75,80L71,80Z"/>
+    </group>
+</vector>

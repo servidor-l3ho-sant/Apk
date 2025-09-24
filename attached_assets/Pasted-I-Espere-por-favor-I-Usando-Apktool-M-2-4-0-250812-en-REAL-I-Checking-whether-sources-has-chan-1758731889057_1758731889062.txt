@@ -1,0 +1,16 @@
+I: Espere por favor...
+I: Usando Apktool M 2.4.0-250812 en REAL
+I: Checking whether sources has changed...
+I: Smaling smali folder into classes.dex...
+I: Checking whether resources has changed...
+I: Building resources...
+I: Using aapt2 (64bit)
+W: /storage/emulated/0/Download/REAL/AndroidManifest.xml:14: error: resource xml/data_extraction_rules (aka com.mexicotv.futbolenvivoabierta:xml/data_extraction_rules) not found.
+W: /storage/emulated/0/Download/REAL/AndroidManifest.xml:14: error: resource xml/backup_rules (aka com.mexicotv.futbolenvivoabierta:xml/backup_rules) not found.
+W: /storage/emulated/0/Download/REAL/AndroidManifest.xml:14: error: resource drawable/ic_launcher (aka com.mexicotv.futbolenvivoabierta:drawable/ic_launcher) not found.
+W: /storage/emulated/0/Download/REAL/AndroidManifest.xml:14: error: resource style/AppTheme (aka com.mexicotv.futbolenvivoabierta:style/AppTheme) not found.
+W: /storage/emulated/0/Download/REAL/AndroidManifest.xml:26: error: resource style/AppTheme.FullScreen (aka com.mexicotv.futbolenvivoabierta:style/AppTheme.FullScreen) not found.
+W: error: failed processing manifest.
+W: b.a.b: b.b.a: could not exec (exit code = 1): [/data/user/0/ru.maximoff.apktool/files/bin/aapt2_64, link, -o, /data/user/0/ru.maximoff.apktool/cache/APKTOOL_M3361296781673964302.tmp, --package-id, 127, --min-sdk-version, 21, --target-sdk-version, 34, --version-code, 1, --version-name, 1.0, --no-auto-version, --no-version-vectors, --no-version-transitions, --no-resource-deduping, -I, /data/user/0/ru.maximoff.apktool/files/framework/main/1.apk, --manifest, /storage/emulated/0/Download/REAL/AndroidManifest.xml, /storage/emulated/0/Download/REAL/build/resources.zip]
+W: b.a.b: b.b.a: could not exec (exit code = 1): [/data/user/0/ru.maximoff.apktool/files/bin/aapt2_64, link, -o, /data/user/0/ru.maximoff.apktool/cache/APKTOOL_M3361296781673964302.tmp, --package-id, 127, --min-sdk-version, 21, --target-sdk-version, 34, --version-code, 1, --version-name, 1.0, --no-auto-version, --no-version-vectors, --no-version-transitions, --no-resource-deduping, -I, /data/user/0/ru.maximoff.apktool/files/framework/main/1.apk, --manifest, /storage/emulated/0/Download/REAL/AndroidManifest.xml, /storage/emulated/0/Download/REAL/build/resources.zip]
+I: Tiempo empleado: 00:00:00.643
