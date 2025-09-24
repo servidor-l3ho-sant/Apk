@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Liga MX TV</string>
-    <string name="google_storage_bucket">ligamx-daf3d.firebasestorage.app</string>
-    <string name="google_api_key">AIzaSyC-example-key-for-ligamx-project</string>
-    <string name="google_app_id">1:123456789:android:abcd1234efgh5678</string>
-    <string name="action_settings">Configuración</string>
-    <string name="streaming_error">Error al cargar stream</string>
-    <string name="loading">Cargando...</string>
+    <!-- App Branding - ULTRAGOL by L3HO -->
+    <string name="app_name">ULTRAGOL</string>
+    <string name="company_name">L3HO</string>
+    <string name="app_description">La mejor experiencia de fútbol en vivo</string>
+    
+    <!-- Firebase Configuration (actualizar con configuración real) -->
+    <string name="google_storage_bucket">ultragol-l3ho.firebasestorage.app</string>
+    <string name="google_api_key">AIzaSyC-ultragol-key-for-l3ho-project</string>
+    <string name="google_app_id">1:987654321:android:ultragol5678l3ho</string>
+    
+    <!-- Navigation & UI -->
+    <string name="action_settings">⚙️ Configuración</string>
+    <string name="home">🏠 Inicio</string>
+    <string name="live_matches">⚽ En Vivo</string>
+    <string name="schedule">📅 Horarios</string>
+    <string name="favorites">⭐ Favoritos</string>
+    
+    <!-- Streaming -->
+    <string name="streaming_error">❌ No pudimos cargar el stream. Verifica tu conexión.</string>
+    <string name="loading">🔄 Cargando el mejor fútbol...</string>
+    <string name="buffering">⏳ Preparando transmisión...</string>
+    <string name="connection_error">📡 Problema de conexión. Reintentando...</string>
+    
+    <!-- Match Information -->
+    <string name="live_now">🔴 EN VIVO</string>
+    <string name="coming_up">⏰ Próximamente</string>
+    <string name="full_time">⏹️ Finalizado</string>
+    <string name="half_time">⏸️ Medio Tiempo</string>
+    
+    <!-- Modern UI Texts -->
+    <string name="welcome_title">¡Bienvenido a ULTRAGOL!</string>
+    <string name="welcome_subtitle">by L3HO - Tu pasión por el fútbol</string>
+    <string name="enjoy_matches">Disfruta los mejores partidos en alta definición</string>
+    <string name="premium_quality">🏆 Calidad Premium</string>
+    <string name="multiple_streams">📺 Múltiples streams disponibles</string>
+    
+    <!-- Error Messages (más amigables) -->
+    <string name="no_internet">📡 Necesitas conexión a internet para disfrutar ULTRAGOL</string>
+    <string name="server_error">⚠️ Nuestros servidores están ocupados. Intenta en un momento.</string>
+    <string name="video_unavailable">🎥 Este video no está disponible en tu región</string>
+    
+    <!-- Actions -->
+    <string name="retry">🔄 Reintentar</string>
+    <string name="share">📤 Compartir</string>
+    <string name="fullscreen">🔲 Pantalla completa</string>
+    <string name="minimize">↩️ Minimizar</string>
 </resources>
